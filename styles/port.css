@@ -1,0 +1,357 @@
+/*Styling the nav bar*/
+@media only screen and (max-width: 473px) and (min-width: 200px) {
+    #navbar {
+        width: 100%;
+        background-color: rgb(233, 233, 233);
+        height: 6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .nav-links {
+        display: flex;
+        padding-right: 50px;
+    }
+    
+    .logo {
+        display: flex;
+        font-family: cursive;
+        padding-left: 50px;
+        font-style: oblique;
+    }
+    .small_screen {
+        background:rgb(231, 229, 229);
+        position: absolute;
+        top: 3.8em;
+        z-index: 1;
+        left: 1%;
+        display: none;
+        margin-left: 0;
+    }
+    .sidebar .menu {
+        position: relative;
+        top: -0.3em;
+        font-weight: 700;
+        display: inline;
+        font-size: 25px;
+        margin-left: -5em;
+    }
+    .small_screen .close {
+        display: block;
+        font-size: 25px;
+        background: black;
+        color: red;
+        float: right;
+        margin-left: 5em;
+    }
+    nav li {
+        display: inline;
+        list-style: none;
+        padding-left: 10px;
+    }
+    nav li a {
+        display: block;
+        color: black;
+        font-size: 19px;
+    }
+    .head {
+        margin-top: 15px;
+        text-align: left;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(104, 156, 35);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .head h4 {
+        margin-top: 15px;
+    }
+    section {
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+    }
+    main {
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .two {
+        display: grid;
+        grid-template-columns: 100% ;
+    }
+    .two .card1, .card2, .card3, .card4 {
+        width: 200px;
+        height: 230px;
+        margin-top: 50px;
+        margin-left: 15px;
+    }
+    .three {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 1em;
+        margin-bottom: 15px;
+    }
+    .three #list3 li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .three #list3 li a:hover {
+        background-color: darkolivegreen;
+        color: white;
+        font-size: 13px;
+        padding: 4px;
+    }
+    #fourth {
+        margin-top: 20px;
+    }
+}
+/*Break point*/
+@media only screen and (max-width: 280px) and (min-width: 200px) {
+    .head {
+        margin-top: 15px;
+        text-align: left;
+        height: 80px;
+        background-color: rgb(104, 156, 35);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .head h4 {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+    section {
+        width: 100%;
+        height: fit-content;
+        margin: auto;
+    }
+    button {
+        background-color: rgb(8, 8, 250);
+        color: white;
+        padding: 6px 7px;
+        font-weight: bolder;
+        border: none;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width: 499px) and (min-width: 320px) {
+    #navbar {
+        width: 100%;
+        background-color: rgb(233, 233, 233);
+        height: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo {
+        display: flex;
+        font-family: cursive;
+        padding-left: 20px;
+        font-style: oblique;
+    }
+
+    .two .card1, .card2, .card3, .card4 {
+        width: 250px;
+        height: 230px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #two h3 {
+        color: rgb(216, 81, 81);
+        font-size: 18px;
+        margin-top: 33px;
+        margin-bottom: 15px;
+    }
+}
+
+/*Styling more mobiles and tabs at different break points*/
+@media only screen and (max-width: 800px) and (min-width: 474px) {
+    /*Styling the nav bar*/
+    #navbar {
+        width: 100%;
+        background-color: rgb(233, 233, 233);
+        height: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: flex;
+        padding-right: 50px;
+        padding-bottom: 13px;
+    }
+
+    .logo {
+        display: flex;
+        font-family: cursive;
+        padding-left: 50px;
+        font-style: oblique;
+    }
+
+    nav li {
+        display: inline;
+        list-style: none;
+        padding-left: 10px;
+    }
+    main {
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    main h3 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .two {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .two .card1, .card2, .card3, .card4 {
+        width: 300px;
+        height: 230px;
+        margin: auto;
+        margin-top: 50px;
+       
+    }
+    .three {
+        display: grid;
+        grid-template-columns: 100%;
+        column-gap: 1em;
+        margin-bottom: 15px;
+    }
+    .three #list3 li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .three #list3 li a:hover {
+        background-color: darkolivegreen;
+        color: white;
+        font-size: 13px;
+        padding: 4px;
+    }
+    #fourth {
+        margin-top: 20px;
+    }
+}
+
+/*Break point*/
+@media only screen and (max-width: 800px) and (min-width: 500px) {
+
+    .two {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 2em;
+        
+    }
+    .two .card1, .card2, .card3, .card4 {
+        width: 200px;
+        height: 230px;
+        margin: auto;
+        margin-top: 50px;
+    }
+}
+/*Styling more mobiles and tabs at different break points*/
+@media only screen and (max-width: 1000px) and (min-width: 801px) {
+    /*Styling the nav bar*/
+    /*Styling the nav bar*/
+    #navbar {
+        width: 100%;
+        background-color: rgb(233, 233, 233);
+        height: 6em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: flex;
+        padding-right: 50px;
+        padding-bottom: 15px;
+    }
+
+    .logo {
+        display: flex;
+        font-family: cursive;
+        padding-left: 50px;
+        font-style: oblique;
+    }
+
+    
+    
+    nav li {
+        display: inline;
+        list-style: none;
+        padding-left: 10px;
+    }
+   
+    main {
+        width: 100%;
+        height: fit-content;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    main h3 {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .two {
+        display: grid;
+        grid-template-columns: 50% 50%  ;
+        column-gap: 2em;
+    }
+    .two .card1, .card2, .card3, .card4 {
+        width: 350px;
+        height: 250px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .two img {
+        width: inherit;
+        height: 160px;
+    }
+    .three {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        column-gap: 1em;
+        margin-bottom: 15px;
+    }
+    .three #list3 li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 10px;
+        font-size: 15px;
+    }
+    .three #list3 li a:hover {
+        background-color: darkolivegreen;
+        color: white;
+        font-size: 13px;
+        padding: 4px;
+    }
+    #fourth {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1001px) {
+    .two {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%  ;
+        column-gap: 2em;
+    }
+    .two .card1, .card2, .card3, .card4 {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
