@@ -42,9 +42,10 @@
     }
     .small_screen .close {
         display: block;
-        font-size: 20px;
-        color: red;
+        font-size: 28px;
         background: black;
+        padding: 4px 8px;
+        color: red;
         float: right;
         margin-left: 5em;
         margin-bottom: 7px;
